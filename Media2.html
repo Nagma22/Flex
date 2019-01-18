@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <title>Media</title>
+    <meta name="viewport" content="width=device-width">
+    <style>
+        ul{
+            overflow: hidden;
+            background-color: grey;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        li a{
+            color: white;
+            padding: 1rem;
+            float: left;
+            text-decoration: none;
+            display: block;
+        }
+        li a:hover{
+            background-color: rgb(10, 10, 10);
+        }
+        .active{
+            background-color: orange;
+        }
+        @media screen and (max-width : 600px){
+            li a{
+                float: none;
+                width: 100%;
+            }
+        }
+
+    
+    </style>
+    </head>
+    <body>
+        <ul>
+            <li><a href="" class="active">Home</a></li>
+            <li><a href="">HTML</a></li>
+            <li><a href="">CSS</a></li>
+            <li><a href="">Javascript</a></li>
+            <li><a href="">Java</a></li>
+        </ul><br><br>
+      <!--  <ul>
+                <li><a href="" class="active">Home</a></li>
+                <li><a href="">HTML</a></li>
+                <li><a href="">CSS</a></li>
+                <li><a href="">Javascript</a></li>
+                <li><a href="">Java</a></li>
+            </ul>-->
+
+    </body>
+</html>

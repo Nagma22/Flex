@@ -1,0 +1,270 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Flex-box</title>
+        <meta name="viewport" content="width=device-width">
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            .container{
+                background-color: grey;
+                margin:20px;
+                display: flex;
+                justify-content : center;
+                color: white;
+            }
+
+            .item{
+                margin: 20px;
+                background-color: orange;
+                padding: 30px;
+                font-size: 20px;
+            }
+
+            .container1{
+                background-color: grey;
+                margin: 20px;
+                color: white;
+                display: flex;
+                flex-direction: row-reverse;
+            }
+            .item1{
+                background-color:orange;
+                margin: 20px;
+                padding: 30px;
+                font-size: 20px;
+            }
+        
+        .container2{
+            margin:20px;
+            background-color: gray;
+            color: white;
+            display: flex;
+            flex-direction: column-reverse;
+        }
+
+        .item2{
+            background-color: orange;
+            margin: 20px;
+            padding: 30px;
+            font-size:20px; 
+        }
+
+        .container3{
+            margin: 20px;
+            background-color: gray;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .item3{
+            margin: 20px;
+            padding: 30px;
+            background-color: orange;
+        }
+
+        .container4{
+            background-color: grey;
+            margin: 20px;
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .item4{
+            background-color: orange;
+            margin: 20px;
+            padding: 30px;
+        }
+        .container5{
+            background-color: grey;
+            margin: 20px;
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+        }
+        .item5{
+            background-color: orange;
+            margin: 20px;
+            padding: 30px;
+        }
+        .b2, .b3{
+            height: 5rem;
+        }
+
+         .container6{
+            background-color: grey;
+            margin: 20px;
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+        }
+        .item6{
+            background-color: orange;
+            margin: 20px;
+            padding: 30px;
+        }
+        .b2, .b3, .b4{
+            height: 5rem;
+        }
+
+        .container7{
+            background-color: grey;
+            margin: 20px;
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: stretch;
+        }
+        .item7{
+            background-color: orange;
+            margin: 20px;
+            padding: 30px;
+        }
+
+        .container8{
+            background-color: grey;
+            margin: 20px;
+            font-size: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+        }
+        .item8{
+            background-color: orange;
+            margin: 20px;
+            padding: 30px;
+        }
+
+        .container9{
+            background-color: grey;
+            margin: 20px;
+            font-size: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container10{
+            background-color: grey;
+            margin: 20px;
+            font-size: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-end;
+        }
+
+        </style>
+    </head>
+    <body>
+        <h2>Display flex with justify-content is center</h2>
+        <div class="container">
+            <div class="item">box1</div>
+            <div class="item">box2</div>
+            <div class="item">box3</div>
+            <div class="item">box4</div>
+            <div class="item">box5</div>
+        </div><br<br>
+
+        <h2>  Display-Flex And Flex-Decoration is row-reverse</h2>
+        <div class="container1">
+                <div class="item1">box1</div>
+                <div class="item1">box2</div>
+                <div class="item1">box3</div>
+                <div class="item1">box4</div>
+                <div class="item1">box5</div>
+        </div><br><br>
+        
+        <h2>Display-Flex And
+                Flex-Decoration is column-reverse</h2>
+        <div class="container2">
+                    <div class="item2">box1</div>
+                    <div class="item2">box2</div>
+                    <div class="item2">box3</div>
+                    <div class="item2">box4</div>
+                    <div class="item2">box5</div>
+        </div><br><br>
+
+        <h2>Displaying Flex With flex-diirection : row with justify-content : space-between</h2>
+        <div class="container3">
+                <div class="item3">box1</div>
+                <div class="item3">box2</div>
+                <div class="item3">box3</div>
+                <div class="item3">box4</div>
+                <div class="item3">box5</div>
+        </div><br><br>
+
+        <h2>Displaying flex, Flex-Decoration : row, justify-content : center, align-item:flex-center</h2>
+        <div class="container4">
+            <div class="item4">box1</div>
+            <div class="item4 b2">box2</div>
+            <div class="item4">box3</div>
+            <div class="item4">box4</div>
+            <div class="item4">box5</div>
+        </div><br><br>
+
+        <h2>Displaying flex, Flex-Decoration : row, justify-content : center, align-item:flex-start</h2>
+        <div class="container5">
+            <div class="item5">box1</div>
+            <div class="item5 b3">box2</div>
+            <div class="item5">box3</div>
+            <div class="item5">box4</div>
+            <div class="item5">box5</div>
+        </div>
+
+        <h2>Displaying flex, Flex-Decoration : row, justify-content : center, align-item:flex-end</h2>
+        <div class="container6">
+            <div class="item6">box1</div>
+            <div class="item6 b4">box2</div>
+            <div class="item6">box3</div>
+            <div class="item6">box4</div>
+            <div class="item6">box5</div>
+        </div>
+
+        <h2>Displaying flex, Flex-Decoration : row, justify-content : center, align-item:stretched</h2>
+        <div class="container7">
+            <div class="item7">box1</div>
+            <div class="item7 b4">box2</div>
+            <div class="item7">box3</div>
+            <div class="item7">box4</div>
+            <div class="item7">box5</div>
+        </div>
+
+        
+        <h2>Displaying flex, Flex-Decoration : column, justify-content : center, align-item:center</h2>
+        <div class="container8">
+            <div class="item8">box1</div>
+            <div class="item8 b4">box2</div>
+            <div class="item8">box3</div>
+            <div class="item8">box4</div>
+            <div class="item8">box5</div>
+        </div>
+
+        <h2>Displaying flex, Flex-Decoration : column, justify-content : center, align-item : flex-start</h2>
+        <div class="container9">
+            <div class="item8">box1</div>
+            <div class="item8 b4">box2</div>
+            <div class="item8">box3</div>
+            <div class="item8">box4</div>
+            <div class="item8">box5</div>
+        </div>
+
+        <h2>Displaying flex, Flex-Decoration : column, justify-content : center, align-item : flex-end</h2>
+        <div class="container10">
+            <div class="item8">box1</div>
+            <div class="item8 b4">box2</div>
+            <div class="item8">box3</div>
+            <div class="item8">box4</div>
+            <div class="item8">box5</div>
+        </div>
+
+    </body>
+</html>
